@@ -17,7 +17,7 @@
 
 ---
 
-## Il Problema
+## • Il Problema
 
 Gestire la compliance documentale di decine di aziende appaltatrici su cartelle di rete è un incubo.
 
@@ -30,19 +30,19 @@ Gestire la compliance documentale di decine di aziende appaltatrici su cartelle 
 
 ---
 
-## ? Funzionalità
+## ✨ Funzionalità
 
-### ?? Dashboard Aziendale
+### ▸ Dashboard Aziendale
 Panoramica istantanea di tutte le aziende. Status documenti in tempo reale, ricerca rapida, badge per criticità. Aggiornamento automatico ogni 3 minuti.
 
-### ?? Verifica Compliance Documenti
+### ▸ Verifica Compliance Documenti
 Per ogni azienda, HORCE sa cosa c’è, cosa manca e cosa è scaduto.
 
 - **Documenti azienda**: Allegati, CCIAA, DURC, DUVRI, RAMS
 - **Documenti lavoratori**: Preposti, DPI, Formazione
 - Viewer PDF integrato nella pagina
 
-### ?? Gestione Progetti RAMS/DUVRI
+### ▸ Gestione Progetti RAMS/DUVRI
 Workflow approvazione a doppio livello:
 
 1. Il contractor carica RAMS + DUVRI
@@ -50,11 +50,11 @@ Workflow approvazione a doppio livello:
 3. **WHS** (Safety Technician) approva la parte sicurezza
 4. Rigetto: motivazione obbligatoria, eliminazione automatica file, log completo
 
-### ? Scanner Multi-Thread
+### ▸ Scanner Multi-Thread
 Scansione intera struttura cartelle in **2-3 minuti** con 8 thread paralleli.
 ~7.000 file indicizzati con metadata completo: owner, data, dimensione.
 
-### ?? Autenticazione & Ruoli
+### ▸ Autenticazione & Ruoli
 
 | Ruolo | Accesso |
 |-------|---------|
@@ -63,14 +63,14 @@ Scansione intera struttura cartelle in **2-3 minuti** con 8 thread paralleli.
 | **RME** | Dashboard, documenti, approvazioni RME |
 | **Contractor** | Solo la propria azienda |
 
-### ?? Analytics & Reporting
+### ▸ Analytics & Reporting
 - KPI compliance per azienda e tipo documento
 - Top aziende per criticità, grafici interattivi
 - Export CSV log attività
 
 ---
 
-## ?? Avvio Rapido
+## ▶ Avvio Rapido
 
 **30 secondi per partire:**
 
@@ -91,7 +91,7 @@ Credenziali default: `admin` / `admin2026`
 
 ---
 
-## ?? Architettura
+## ▣ Architettura
 
 ```
 HORCE/
@@ -108,7 +108,7 @@ HORCE/
     +-- owner scanner/        <- Tool metadata file owner
 ```
 
-### Stack Tecnico
+### ▸ Stack Tecnico
 
 | Layer | Tecnologia |
 |-------|-----------|
@@ -122,7 +122,7 @@ HORCE/
 
 ---
 
-## ?? Sicurezza
+## ⚿ Sicurezza
 
 - Password hashate (Werkzeug bcrypt)
 - Nuovi utenti **disattivati per default** — abilitazione manuale da admin
@@ -133,7 +133,7 @@ HORCE/
 
 ---
 
-## ? Performance
+## ⚡ Performance
 
 | Operazione | Tempo | Dettagli |
 |-----------|-------|---------|
@@ -144,7 +144,7 @@ HORCE/
 
 ---
 
-## ?? Configurazione
+## ⚙ Configurazione
 
 ```python
 ROOT_PATH = r"\server\rete\percorso"  # Cartella root da scansionare
@@ -154,7 +154,7 @@ REFRESH_INTERVAL = 180                   # Secondi tra auto-refresh
 
 ---
 
-## ?? Requisiti
+## ◆ Requisiti
 
 - Python 3.8+ (consigliato 3.11)
 - Accesso lettura/scrittura alla cartella di rete
@@ -163,7 +163,7 @@ REFRESH_INTERVAL = 180                   # Secondi tra auto-refresh
 
 ---
 
-## ?? Changelog
+## ★ Changelog
 
 ### v2.0 — Marzo 2026
 - ✅ Autenticazione multi-ruolo (Admin, User, RME, Contractor)
@@ -180,9 +180,9 @@ REFRESH_INTERVAL = 180                   # Secondi tra auto-refresh
 
 ---
 
-## ?? Autore
+## ◉ Autore
 
-**Mirko Glorioso** — HSE Manager & Developer
+**Mirkoglo** — WHS Technician & HORCE Project Author
 
 Costruito per risolvere un problema reale, testato sul campo con 230+ aziende e 1.141+ lavoratori.
 
