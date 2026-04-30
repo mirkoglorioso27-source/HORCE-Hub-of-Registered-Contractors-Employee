@@ -182,9 +182,9 @@ REFRESH_INTERVAL = 180                   # Secondi tra auto-refresh
 
 ## ◉ Autore
 
-**Mirkoglo** — WHS Technician & HORCE Project Author
+**Mirkoglo** — HSE Manager & HORCE Project Author
 
-Costruito per risolvere un problema reale, testato sul campo con 230+ aziende e 1.141+ lavoratori.
+Costruito per risolvere un problema reale, testato sul campo con 230+ aziende e 1.200+ lavoratori.
 
 ---
 
